@@ -1,4 +1,4 @@
-# Parabank
+# Para Bank
 Sample test automation for the Para Bank website
  
 # 📝 Project Overview
