@@ -9,7 +9,7 @@ test.beforeEach(async ({ page }) => {
    await loginPage.login(page);
  });
 
-test('User is able to navigate through the global navigation page successfully.', async ({ page }) => {
+test('User is able to open new account successfully.', async ({ page }) => {
 
       const newAccPage = new openNewAccPage();
       await newAccPage.openNewAccSteps(page);

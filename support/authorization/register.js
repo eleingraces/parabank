@@ -59,8 +59,8 @@ class registerUserPage {
  
         const updatedData = {
           ...parsedData, 
-          username: username,  // Update username
-          password: password,  // Update password
+          username: username, 
+          password: password, 
         };
     
         const jsonData = JSON.stringify(updatedData, null, 2);

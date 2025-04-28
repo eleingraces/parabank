@@ -31,15 +31,12 @@ class findTransactionsPage {
          console.log(await apiresponse.text());
          console.log(responseBody);            
       
-         // Basic status checks
          expect(apiresponse.ok()).toBeTruthy();
          expect(apiresponse.status()).toBe(200);
       
-         // Assert expected properties in the JSON response
          expect(Array.isArray(responseBody)).toBeTruthy();
          expect(responseBody.length).toBeGreaterThan(0);
       
-         // Check the first transaction (you can loop through all if needed)
          const firstTransaction = responseBody[0];
       
          expect(firstTransaction).toHaveProperty('accountId', Number(transferredAccount));

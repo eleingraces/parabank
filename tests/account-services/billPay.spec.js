@@ -32,7 +32,7 @@ test.beforeEach(async ({ page }) => {
    await transferFunds.transferSuccess(page);
  });
 
-test('User is able to navigate through the global navigation page successfully.', async ({ page }) => {
+test('User is able to pay bill using newly created account.', async ({ page }) => {
       await billPay.goToBillPayPage(page);
       await billPay.fillOutForm(page);
       await billPay.selectAccount(page);

@@ -24,7 +24,7 @@ test.beforeEach(async ({ page }) => {
 
  });
 
-test('User is able to navigate through the global navigation page successfully.', async ({ page }) => {
+test('User is able to transfer funds from newly created account to original account successfully.', async ({ page }) => {
       await transferFunds.goToTranferFundsPage(page);
       await transferFunds.transferAmount(page);
       await transferFunds.selectAccount(page);
