@@ -1,4 +1,4 @@
-# Parabank
+# Playwright Automated Test Scripts for Para Bank application
 Sample test automation for the Para Bank website
  
 # 📝 Project Overview
